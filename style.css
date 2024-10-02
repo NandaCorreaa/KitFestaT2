@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+header {
+  background-color: tomato;
+  height: 120px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  border: solid black 1px;
+}
+header li {
+  display: inline-block;
+  margin: 20px;
+}
+header li a {
+  color: white;
+  text-decoration: none;
+}
+
+.primeiraSessao {
+  height: 500px;
+  background-image: url("./Imgs/mesversárioT2.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
